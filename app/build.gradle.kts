@@ -10,7 +10,7 @@ plugins {
     alias(libs.plugins.kotlin.serialization)
 }
 
-val baseAppName = "汽水音乐"
+val baseAppName = "WebUI X"
 val mmrlBaseApplicationId = "com.dergoogler.mmrl"
 val basePackageName = "$mmrlBaseApplicationId.wx"
 
