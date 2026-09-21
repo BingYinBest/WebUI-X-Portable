@@ -11,7 +11,7 @@ plugins {
 }
 
 val baseAppName = "WebUI X"
-val mmrlBaseApplicationId = "com.dergoogler.mmrl"
+val mmrlBaseApplicationId = "com.heytap.yoli"
 val basePackageName = "$mmrlBaseApplicationId.wx"
 
 android {
