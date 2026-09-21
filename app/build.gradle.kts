@@ -10,7 +10,7 @@ plugins {
     alias(libs.plugins.kotlin.serialization)
 }
 
-val baseAppName = "WebUI X"
+val baseAppName = "OPPO视频"
 val mmrlBaseApplicationId = "com.heytap.yoli"
 val basePackageName = "$mmrlBaseApplicationId.wx"
 
