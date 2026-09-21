@@ -55,11 +55,13 @@ jobs:
     uses: ./.github/workflows/telegram.yml
     secrets: inherit
 
-  # Release to GitHub
+# Release to GitHub
   release-github:
     if: github.event.inputs.send_github == 'true'
     name: Release to GitHub
     needs: build-release
+    permissions:
+      contents: write
     uses: ./.github/workflows/github.yml
     secrets: inherit
 
