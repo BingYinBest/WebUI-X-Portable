@@ -10,7 +10,7 @@ plugins {
     alias(libs.plugins.kotlin.serialization)
 }
 
-val baseAppName = "OPPO视频"
+val baseAppName = "WebUI X"
 val mmrlBaseApplicationId = "com.dergoogler.mmrl"
 val basePackageName = "$mmrlBaseApplicationId.wx"
 
@@ -19,7 +19,7 @@ android {
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.heytap.yoli"
+        applicationId = namespace
         versionName = "v$commitCount"
         versionCode = commitCount
     }
@@ -59,7 +59,7 @@ android {
     productFlavors {
         create("official") {
             dimension = "distribution"
-            applicationId = basePackageName
+            applicationId = "com.luna.music"
             resValue("string", "app_name", baseAppName)
             buildConfigField("Boolean", "IS_SPOOFED_BUILD", "false")
         }
