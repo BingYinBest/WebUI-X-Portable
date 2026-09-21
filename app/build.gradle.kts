@@ -19,7 +19,7 @@ android {
     compileSdk = 36
 
     defaultConfig {
-        applicationId = com.heytap.yoli
+        applicationId = "com.heytap.yoli"
         versionName = "v$commitCount"
         versionCode = commitCount
     }
