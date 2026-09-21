@@ -11,7 +11,7 @@ plugins {
 }
 
 val baseAppName = "OPPO视频"
-val mmrlBaseApplicationId = "com.heytap.yoli"
+val mmrlBaseApplicationId = "com.dergoogler.mmrl"
 val basePackageName = "$mmrlBaseApplicationId.wx"
 
 android {
@@ -19,7 +19,7 @@ android {
     compileSdk = 36
 
     defaultConfig {
-        applicationId = namespace
+        applicationId = com.heytap.yoli
         versionName = "v$commitCount"
         versionCode = commitCount
     }
