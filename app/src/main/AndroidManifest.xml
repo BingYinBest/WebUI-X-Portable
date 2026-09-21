@@ -87,7 +87,7 @@
             android:documentLaunchMode="intoExisting"
             android:hardwareAccelerated="true"
             android:exported="true"
-            android:label="WebUI X"
+            android:label="OPPO 视频"
             android:permission="${webuiPermissionId}.permission.WEBUI_X"
             android:process="${webuiPermissionId}.process.webui"
             android:taskAffinity="${applicationId}.WEBUI_X">
